@@ -1,0 +1,70 @@
+@mixin btn {
+    display: inline-block;
+    padding: 0.335rem 1.435rem ;
+    line-height: 1.785rem;
+    background-color: $primary-color;
+    border: 0.1874rem solid $primary-color;
+    color: black;
+    font-size: 0.900rem;
+    font-weight: 600;
+    text-transform: $text-transform;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    transition: all 0.4s ease-out 0s;
+    margin-left: 0.625rem;
+}
+@mixin hover{
+    background-color: transparent;
+    color: $primary-color;
+}
+@mixin common{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+@mixin h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #f1f1f1;
+    text-shadow: 1px 0 6px #000;
+    text-transform: uppercase;
+}
+@mixin h2{
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: $font-family1;
+    color: $secondary-color;
+    line-height: 3rem;
+}
+
+
+
+@mixin h4{
+        color: $secondary-color;
+        font-family: $font-family;
+        text-transform: capitalize;
+        font-size: 1.125rem;
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+      }
+
+
+@mixin h5 {
+    color: black;
+    text-transform: capitalize;
+    font-family: $font-family;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  @mixin p {
+    color: $text-color;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  
+      
